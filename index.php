@@ -63,11 +63,39 @@ Librairies utilisées : Bootstrap, Jquery -->
 				<div class="row">
 					<div class="col-md-12 hourFrame" align="center">
 						<h1 align="center">Bonjour ! Vous semblez en forme !</h1><hr/><br/>
-						<marquee><div class="your-clock" align="center"></div></marquee>
+						<marquee direction="right"><div class="your-clock" align="center"></div></marquee>
 					</div>
 				</div><br/>
 				<div class="row">
-					<div class="col-md-10"><div id="newsFrame"></div></div>
+					<div id="text-carousel" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="row">
+							<div class="col-xs-offset-3 col-xs-6">
+								<div class="carousel-inner">
+									<div class="item active">
+										<div class="carousel-content">
+											<div id="newsFrame"></div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="carousel-content">
+											<div>
+												<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, sint fuga temporibus nam saepe delectus expedita vitae magnam necessitatibus dolores tempore consequatur dicta cumque repellendus eligendi ducimus placeat! </h2>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<!-- Controls --> <a class="left carousel-control" href="#text-carousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					  </a>
+					 <a class="right carousel-control" href="#text-carousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					  </a>
+
+					</div>
 				</div>
 			</div>
 		</div>

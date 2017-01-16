@@ -42,7 +42,7 @@ function majNews() {
 			res = JSON.parse(res);
 			res = res.flux.item;
 			console.log(res);
-			var content = '<h2>Quelque news ?</h2>';
+			var content = '<h2>Quelques news ?</h2>';
 			for(var i = 0; i < 3; i++) {
 				content += '<div class="newsItem">' +
 				'<h3>' + res[i].title + '</h3>' +
