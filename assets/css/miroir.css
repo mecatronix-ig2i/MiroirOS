@@ -17,6 +17,16 @@ h2 {
 	font-size: 50px;
 }
 
+h3 {
+	font-size: 35px;
+}
+
+p {
+	font-size:20px;
+}
+
+
+
 .weather-wrapper {
 	margin: 5% 0 5% 5%;
 	padding: 40px 5%;
@@ -28,9 +38,12 @@ h2 {
 }
 
 .weatherModule {
-	border : 2px solid white;
 	border-radius:50px;
 	
+}
+
+.newsItem {
+	padding:40px;
 }
 
 .capitalize {
@@ -44,5 +57,3 @@ h2 {
 .align {
 	text-align:center;
 }
-
-

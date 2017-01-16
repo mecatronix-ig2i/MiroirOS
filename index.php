@@ -60,8 +60,15 @@ Librairies utilisées : Bootstrap, Jquery -->
 				</div>
 			</div>
 			<div class="col-md-8">
-				<h1 align="center">Bonjour ! Vous semblez en forme !</h1>
-				<div class="your-clock"></div>
+				<div class="row">
+					<div class="col-md-12 hourFrame" align="center">
+						<h1 align="center">Bonjour ! Vous semblez en forme !</h1><hr/><br/>
+						<marquee><div class="your-clock" align="center"></div></marquee>
+					</div>
+				</div><br/>
+				<div class="row">
+					<div class="col-md-10"><div id="newsFrame"></div></div>
+				</div>
 			</div>
 		</div>
 	</div>

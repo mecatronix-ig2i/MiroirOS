@@ -1,24 +1,7 @@
 <?php
-
-class Planning {
-	public function Planning() {
-		$this->planning = array();
+	function recupererFlux() {
+		$flux = simplexml_load_file('http://www.france24.com/fr/france/rss');
+		$flux = $flux->channel;
+		return $flux;
 	}
-	
-	public function ajouterOF($data) {
-		if (array_push($this->planning, array("ofCol" => $data))) return true;
-		else return false;
-	}
-	
-	public function viderPlanning() {
-		$this->planning = array();
-		return $this->planning;
-	}
-	
-	public function getPlanning() {
-		return $this->planning;
-	}
-	
-	protected $planning;
-}
 ?>
